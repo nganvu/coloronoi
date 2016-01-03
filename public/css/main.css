@@ -1,0 +1,187 @@
+body {
+    background: linear-gradient(to bottom right, #000025, #7d007d);
+    font-family: 'Montserrat';
+}
+
+
+svg { /* Voranoi diagram */
+    width: 960px;
+    height: 500px;
+    position: relative;
+    left: 50%;
+    margin-left: -480px;
+}
+
+.navbar {
+    border: 0px;
+    padding-top: 17px;
+    background: #000025;
+    text-shadow: 2px 2px #050005;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.navbar li {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.navbar a {
+    color: #00b0ff;
+}
+
+.dropdown a {
+    color: #ff0066;
+}
+
+.dropdown-menu {
+    font-size: 11px;
+    margin-top: 5px;
+    background: #000025;
+}
+
+.dropdown-menu li {
+    padding-right: 0px;
+    width: 100%;
+}
+
+.dropdown-menu li a {
+    display: block;
+    color: #00b0ff;
+    text-shadow: none;
+    padding: 6px 20px;
+    font-weight: 300;
+}
+
+.dropdown-menu li a:hover{
+    display: block;
+    color: #fff;
+    background: #00b0ff;
+}
+
+.jumbotron {
+    background-image: url('/img/background.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    color: #efefef;
+    text-shadow: 2px 2px #050005;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 60px;
+    padding-bottom: 15px;
+    padding-top: 40px;
+}
+
+.jumbotron p {
+    font-size: 30px;
+}
+
+.script {
+    margin: 0 auto;
+}
+
+#ex1Slider .slider-selection {
+	background: #BABABA;
+}
+
+.middle {
+    text-align: center;
+    color: #efefef;
+    text-shadow: 2px 2px #050005;
+}
+
+.middle h2 {
+    font-size: 24px;
+}
+
+.middle a {
+    color: #00b0ff;
+}
+
+.middle p {
+    font-size: 15px;
+}
+
+.thumbnail {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: none;
+    overflow: hidden;
+    opacity: 0.65;
+}
+
+.thumbnail img {
+    width: 350px;
+    height: 200px;
+}
+
+.upload {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.learn-more {
+    color: #efefef;
+    text-shadow: 2px 2px #050005;
+    text-align: center;
+}
+
+.learn-more h3 {
+    font-size: 18px;
+}
+
+.learn-more p {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.learn-more a {
+    font-size: 12px;
+    font-style: normal;
+    color: #00b0ff;
+}
+
+.bottom
+{
+    font-size: 10px;
+    color: #efefef;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bottom a {
+    color: #00b0ff;
+    text-shadow: 1px 1px #050005;
+}
+
+
+.form-group
+{
+    position: relative;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    text-align: center;
+}
+
+.form-group p
+{
+    color: #efefef;
+    font-size: 15px;
+}
+
+.form-group #fileToUpload
+{
+    color: #efefef;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+td
+{
+    text-shadow: 1px 1px #050005;
+}
